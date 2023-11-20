@@ -1,0 +1,64 @@
+{
+	"name": "hastepaste-website",
+	"version": "4.0.0",
+	"description": "My personal webpage source >:3",
+	"author": {
+		"email": "demirci.baris38@gmail.com",
+		"name": "Barış DEMİRCİ",
+		"url": "https://bariscodes.me"
+	},
+	"license": "GPL-3.0",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start",
+		"format": "prettier --write .",
+		"format:watch": "onchange . -- prettier --write {{changed}}"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.32",
+		"@fortawesome/free-brands-svg-icons": "^5.15.1",
+		"@fortawesome/free-regular-svg-icons": "^5.15.1",
+		"@fortawesome/free-solid-svg-icons": "^5.15.1",
+		"@fortawesome/react-fontawesome": "^0.1.13",
+		"autoprefixer": "latest",
+		"axios": "^0.21.1",
+		"next": "latest",
+		"next-optimized-images": "latest",
+		"next-seo": "latest",
+		"postcss": "latest",
+		"react": "latest",
+		"react-dom": "latest",
+		"react-toastify": "^6.2.0",
+		"tailwindcss": "latest"
+	},
+	"devDependencies": {
+		"@types/node": "latest",
+		"@types/react": "latest",
+		"@typescript-eslint/eslint-plugin": "latest",
+		"@typescript-eslint/parser": "latest",
+		"css-loader": "latest",
+		"eslint": "latest",
+		"eslint-plugin-react": "latest",
+		"eslint-plugin-react-hooks": "latest",
+		"next-compose-plugins": "latest",
+		"node-sass": "latest",
+		"onchange": "latest",
+		"prettier": "latest",
+		"stylelint": "latest",
+		"stylelint-config-recommended": "latest",
+		"typescript": "latest"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
